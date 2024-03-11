@@ -1,0 +1,58 @@
+.vissions-mission-wrapp {
+    margin-top: 40px;
+}
+
+.vissions-mission-wrapp .wrapper-mission-vission{
+    border: transparent;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 12px;
+    background-color: var(--greenish--color);
+    /* padding-right: 11px; */
+    padding-bottom: 30px;
+}
+
+.vissions-mission-wrapp .heading{
+    color: var(--dark--green);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.vissions-mission-wrapp .text{
+    color: var(--dark--green);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.vissions-mission-wrapp .alignments-vissions{
+    margin-right: 93px;
+}
+
+@media only screen and (max-width: 1199px) { 
+    .vissions-mission-wrapp .alignments-vissions {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) { 
+    .vissions-mission-wrapp .text {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 576px) { 
+    .vissions-mission-wrapp .wrapper-mission-vission{
+        border: transparent;
+        padding-top: 30px;
+        padding-left: 0px;
+        border-radius: 12px;
+        background-color: var(--greenish--color);
+        /* padding-right: 11px; */
+        padding-bottom: 30px;
+    }
+}

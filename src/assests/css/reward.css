@@ -1,0 +1,148 @@
+.reward-balance .cardtitle{
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.reward-balance .reward-head{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.reward-balance .customTextfield{
+    margin-top: 38px;
+    border-radius:  none !important;
+  }
+
+  .reward-balance   .customTextfield .form-control {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius:none !important;
+    border-bottom-right-radius: none !important;
+    background: rgba(241, 244, 252, 0.60);
+    box-shadow: 0px 4px 174px rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 13px;
+    border-radius: none !important;
+  }
+  .reward-balance  .customTextfield .form-control::placeholder{
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color:#000000;
+
+  }
+  .reward-balance .btn{
+    border-radius: none !important;
+  }
+  .reward-balance  .copylink-btn{
+    border-radius: none !important;
+  }
+  .customTextfield button,
+.customTextfield .btn-primary,
+.customTextfield .btn:hover,
+.customTextfield .btn-check:checked + .btn,
+.customTextfield .btn.active,
+.customTextfield .btn.show,
+.customTextfield .btn:first-child:active,
+.customTextfield :not(.btn-check) + .btn:active {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  color: #ffffff;
+  background: #033329 !important;
+border-radius: none;
+  border: none !important;
+  padding-left: 31px;
+  padding-right: 30px;
+  
+
+}
+.reward-balance .card-balance{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.reward-balance .card-name{
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.reward-balance .card-sar{
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.reward-balance .card-headers{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.reward-balance .card-invested{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+.reward-balance .card-rs{
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.reward-balance .dated-manu{
+    font-size: 11px;
+    color: #6D6D6D;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.progress, .progress-stacked {
+    --bs-progress-height: 0.4rem;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.progress-bar {
+    background-color: var(--dark--green);
+}
+
+.reward-balance .card-earn{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.reward-balance .desc-cards{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.reward-balance .card-aed{
+    font-size: 14px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+.css-9mgopn-MuiDivider-root {
+    border-color: #9A9AA9 !important;
+}
+
+.reward-balance .chcek{
+    color: #9A9AA9;
+}

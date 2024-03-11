@@ -1,0 +1,153 @@
+.PreferencesScreen{
+    background: white;
+    border-radius: 12px;
+    padding-top: 13px;
+    padding-left: 16px;
+
+}
+.PreferencesScreen .dropdown-menu.show {
+  display: block;
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate(0px, 40px);
+  width: 100%;
+  /* text-align: center; */
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+.PreferencesScreen h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    color:#000000;
+    letter-spacing: 1.20px;
+}
+.PreferencesScreen .roundDiv {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    box-shadow: 4.170732021331787px 5.839025020599365px 13.346342086791992px 0.8341463804244995px rgba(133.87, 133.87, 133.87, 0.16);
+    border: 0.30px rgba(169, 176, 185, 0.3) solid;
+    background: white;
+ 
+  }
+  .PreferencesScreen .roundDiv .iconstyle{
+    color :#033329;
+    font-size: 20px;
+  }
+  .PreferencesScreen .languages{
+    margin-top: 24px;
+  }
+  .PreferencesScreen .languages p{
+    margin-left: 16px;
+    margin-top: 6px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    color: #033329 ;
+  }
+ .PreferencesScreen .custom-dropdown{
+  background: white;
+   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+   border-radius: 6px;
+   border: 0.30px #dbdbe6 solid;
+   color: black;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400 !important;
+   font-size: 16px !important;
+ }
+ 
+
+
+
+.PreferencesScreen .custom-dropdown ,.PreferencesScreen  button, .PreferencesScreen  .btn-primary, .PreferencesScreen  .btn:hover, .PreferencesScreen  .btn-check:checked+.btn, .PreferencesScreen  .btn.active, .btn.show, .PreferencesScreen  .btn:first-child:active, .PreferencesScreen  :not(.btn-check)+.btn:active {
+  background: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  border: 0.3px #dbdbe6 solid;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  margin-top: 0;
+}
+.PreferencesScreen .custom-dropdown  .dropdown-toggle::after {
+width: 100%;
+  color: #033329;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+  .PreferencesScreen  .custom-input-group {
+
+   background: white;
+   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+   border-radius: 6px;
+   border: 0.30px #dbdbe6 solid;
+   color: black;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400 !important;
+   font-size: 16px !important;
+
+  }
+  .PreferencesScreen .input-group-text{
+    border: none;
+    background: none;
+  }
+  .PreferencesScreen .input-group-text span{
+    padding-left: 30px;
+    color: black;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400 !important;
+   font-size: 16px !important;
+  }
+
+  
+  .PreferencesScreen h1.secondHeading{
+    margin-top: 39px;
+  }
+  .PreferencesScreen .last-row{
+    margin-top: 16px;
+  }
+.PreferencesScreen .secondpara{
+   
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: 
+    #000000;
+
+}
+.PreferencesScreen .form-switch .form-check-input {
+  height: 25px;
+  width: 59px;
+  margin-top: -3px;
+  outline: none;
+}
+.PreferencesScreen .form-check-input:checked {
+  background-color: #033329;
+  border-color: #033329;
+  outline: none;
+  
+
+}
+@media (max-width: 768px) {
+  .PreferencesScreen .form-switch .form-check-input {
+    height: 20px;
+    width: 45px;
+    margin-top: 0;
+    
+  }
+}
+@media (max-width: 375px) {
+  .PreferencesScreen .form-switch .form-check-input {
+    height: 18px;
+    width: 42px;
+    margin-top: 0;
+  }
+}

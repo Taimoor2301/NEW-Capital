@@ -1,0 +1,185 @@
+.RealState{
+    background-image: url(../images//neu.svg);
+    background-repeat: no-repeat;
+    background-position: center  232px;
+    background-size: 413px 544px;
+      margin-top: 35px;
+}
+/* Left column */
+.RealState .leftData{
+    /* width:670px; */
+      /* height:662px */
+}
+.RealState .leftData h1{
+    font-size: 44px !important;
+    font-family: "Open Sans", sans-serif;
+    color: #033329;
+    font-weight: 400 !important;
+    margin-bottom: 31px;
+    
+}.RealState .leftData .liquidationList {
+    list-style-type: disc;
+    margin-bottom: 41px;
+}
+
+.RealState .leftData .liquidationList li {
+    line-height: 25px;  
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #033329;
+}
+.RealState .leftData .secondheading{
+    color: #033329;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+}
+.RealState .leftData .liquidationList li::before {
+    font-size: 0.11px !important; 
+}
+
+.RealState .leftData .saudiRealEstateList{
+    list-style-type: none;
+}
+.RealState .leftData .saudiRealEstateList li{
+    line-height: 33px;
+    font-size: 15px;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #033329;
+}
+
+/* Right column */
+.RealState .rightData{
+    /* width:  411px;
+    height: 679.27px; */
+   
+}
+.RealState .rightData .firstheading{
+    font-size: 44px !important;
+    font-family: "Open Sans", sans-serif;
+    color: #033329;
+    font-weight: 400 !important;
+    margin-bottom: 19px;
+}
+.RealState .rightData .DealsSelectionCont,.DealsSelection{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.RealState .rightData .DealsSelection li{
+   
+    line-height: 25.11px;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-family: "Open Sans", sans-serif;
+    color: #033329;
+    margin-left: -32px;
+}
+.RealState .rightData  .secondheading{
+    color: #033329;
+    font-weight: 400 !important;
+    font-size: 39px !important;
+    margin-top: -5px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.RealState .rightData .DealsSelectionCont li{
+   
+    line-height: 26.11px;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-family: "Open Sans", sans-serif;
+    color: #033329;
+    margin-left: -32px;
+}
+.RealState .rightData  .rowContainer{
+    line-height: 26.11px;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #033329;
+    margin-top: -5px;
+}
+
+/* responsive */
+@media only screen and ( max-width: 1199px) {
+    .RealState .leftData h1 {
+        font-size: 37px !important;
+    }
+    .RealState .rightData .firstheading{
+        font-size: 37px !important;
+
+    }
+    .RealState .rightData  .secondheading {
+        font-size: 36px !important;
+    }
+}
+@media only screen and ( max-width: 991px) {
+    .RealState .leftData h1 {
+        font-size: 34px !important;
+    }
+    .RealState .rightData .firstheading{
+        font-size: 34px !important;
+
+    }
+    .RealState .rightData  .secondheading {
+        font-size: 28px !important;
+    }
+}
+/* @media only screen and ( max-width: 375px) {
+    .RealState{
+        width: 100%;
+    height:auto;
+ 
+    }
+    .RealState .leftData{
+        width: 100%;
+        height:auto;
+    }
+    .RealState .leftData h1{
+    font-size: 30px !important;
+        
+    }
+   
+  
+    .RealState .leftData .liquidationList li {
+        line-height: 22px;  
+        font-size: 15px;
+    }
+    .RealState .leftData .saudiRealEstateList li{
+        line-height: 30px;
+        font-size: 15px;
+       
+    }
+    
+    
+    .RealState .rightData{
+        width:  100%;
+        height: auto;
+       
+    }
+    .RealState .rightData .firstheading{
+        font-size: 32px !important;
+    }
+    .RealState .rightData .secondheading{
+        font-size: 32px !important;
+    }
+    .RealState .rightData .DealsSelection li{
+   
+        line-height: 22.11px;
+       margin-left: 0;
+        font-size: 15px !important;
+      
+    }
+    .RealState .rightData .DealsSelectionCont li{
+        line-height: 20.11px;
+        font-size: 15px !important;
+        margin-left: 0;
+    }
+    .RealState .rightData  .rowContainer{
+        line-height: 26.11px;
+      
+        font-size: 14px !important;
+       
+        margin-top: -5px;
+    }
+
+} */

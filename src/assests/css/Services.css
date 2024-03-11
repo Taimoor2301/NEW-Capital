@@ -1,0 +1,179 @@
+.ourServices {
+  width: 100%;
+  height: 100%;
+  margin-left: -56px;
+  margin-top: 77px;
+}
+
+.ourServices .serviceImage {
+  /* width: 699px;
+    height: 760px; */
+}
+
+.ourServices .serviceData {
+  width: 588px;
+  height: 653px;
+  margin-top: 35px;
+}
+.ourServices .card-head{
+    font-size: 46px;
+    color: #22262A;
+    font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin-bottom: 67px;
+}
+.ourServices .serviceData .serviceCard {
+  width: 281px;
+  border: none;
+  margin-top: -18px;
+  background-color: transparent;
+}
+.ourServices .serviceData .CardImages {
+  margin-left: -30px;
+}
+.ourServices .serviceData .cardBody h3 {
+  font-size: 18px !important;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--dark--green);
+}
+.ourServices .serviceCard .cardBody {
+  margin-top: -50px;
+}
+.ourServices .serviceCard .cardText {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #696984;
+  line-height: 25.2px;
+  margin-top: 25px;
+  word-wrap: break-word;
+
+}
+@media only screen and (max-width: 1399px) {
+  .ourServices .serviceData {
+    width: 471px;
+    height: 603px;
+    margin-top: 23px;
+  }
+  .ourServices .card-head {
+    font-size: 46px;
+    color: #22262A;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.ourServices .serviceCard .cardText {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #696984;
+    line-height: 25.2px;
+    margin-top: 6px;
+    word-wrap: break-word;
+}
+.ourServices .serviceData .serviceCard {
+    width: 262px;
+    border: none;
+    margin-top: 18px;
+    background-color: transparent;
+}
+
+.ourServices .serviceImage {
+  display: flex;
+  align-items: center;
+}
+}
+@media only screen and (max-width: 1199px) {
+  .ourServices .serviceData {
+    width: 471px;
+    height: 603px;
+    margin-top: 23px;
+  }
+  .ourServices .card-head {
+    font-size: 46px;
+    color: #22262A;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+.ourServices .serviceCard .cardText {
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #696984;
+    line-height: 25.2px;
+    margin-top: 6px;
+    word-wrap: break-word;
+}
+.ourServices .serviceData .serviceCard {
+    width: 262px;
+    border: none;
+    margin-top: -18px;
+    background-color: transparent;
+}
+
+.ourServices .serviceImage {
+  display: flex;
+  align-items: center;
+}
+}
+@media only screen and (max-width: 991px) {
+    .ourServices .serviceData .serviceCard {
+        width: 100%;
+        border: none;
+        margin-top: -18px;
+        background-color: transparent;
+    }
+    .ourServices{
+        margin-left: 0px;
+    }
+    .ourServices .serviceData{
+        width: 100%;
+    }
+    .ourServices .card-head {
+        margin-bottom: 31px;
+    }
+}
+@media only screen and (max-width: 767px) {
+  .ourServices {
+    margin-left: 0;
+  }
+ 
+  .ourServices .serviceData h2 {
+    text-align: center;
+    font-size: 38px !important
+;
+  }
+  .ourServices .serviceImage{
+    display: block;
+  }
+
+  .ourServices .serviceData .serviceCard {
+    width: 100%;
+    align-items: center;
+  }
+  .ourServices .serviceData .CardImages {
+    margin-left: 0;
+    margin-top: -20px;
+  }
+  .ourServices .serviceCard .cardBody {
+    margin-top: -50px;
+    text-align: center;
+  }
+
+  .ourServices .serviceCard .cardText {
+    margin-top: 15px;
+  }
+
+}
+@media only screen and (max-width: 375px) {
+  .ourServices .serviceData {
+    margin-bottom: 92px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .ourServices .serviceData {
+  }
+}

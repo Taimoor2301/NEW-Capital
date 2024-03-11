@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@500&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@700&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.css-ktf5zp {
+    width: calc(100% - 240px);
+    margin-left: 0px !important;
+}
+
+:root {
+    --blackish--color: #1A202C;
+    --greish--color: #5E6473;
+    --greenish--color: #8CD85D33;
+    --dark--green: #033329;
+    --yelloish--color: #FFC42D;
+    --black--off: #22262A;
+    --green--off: #8CD85D4D;
+}

@@ -1,0 +1,112 @@
+.verticalnav {
+  margin-top: 12px;
+}
+.logo-neu{
+  transition: transform 1s ease;
+}
+.logo-neu:hover {
+  transform: scale(1.2); /* Change the scale factor for desired zoom level */
+}
+.verticalnav .nav-item-vertical{
+  margin-top: 12px;
+}
+.verticalnav .nav-spacing{
+  padding-right: 40px !important;
+}
+.verticalnav .nav-link{
+  color: var(--dark--green) !important;
+  font-size: 16px !important;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  line-height: 20px !important;
+}
+ .nav-link.active{
+  color: var(--dark--green) !important;
+  font-size: 16px !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+ .signup{
+    background-color: var(--dark--green);
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding: 6px 20px;
+}
+ .signup:focus, .signup:hover, :not(.signup-check) + .signup:active{
+    background-color: var(--dark--green) !important;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+
+ .login{
+  border: none !important;
+  background-color: transparent !important;
+  color: var(--dark--green);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.3%;
+  margin-right: 18px;
+}
+ .login:focus,
+ .login:hover,
+ .login:active,:not(.login-check) + .login:active{
+  background-color: transparent !important;
+  color: var(--dark--green) !important;
+}
+.vr-line{
+  border-right: 1px solid var(--dark--green);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .dropdown-butn{
+  background-color: transparent !important;
+  border:  none !important;
+  color: var(--dark--green);
+}
+ .dropdown-butn:focus , 
+ .dropdown-butn:hover{
+  background-color: transparent !important;
+  border:  none !important;
+  color: var(--dark--green) !important;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0em solid;
+  border-right: 0em solid transparent;
+  border-bottom: 0;
+  border-left: 0em solid transparent;
+}
+
+.verticalnav .worldicon{
+  font-size: 30px;
+  color:var(--dark--green);
+}
+
+.verticalnav .language-dropdown{
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .verticalnav .nav-link.active{
+    color: var(--dark--green) !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+  }
+ .spacing-dropdowns{
+    margin-top: 70px;
+  }
+}

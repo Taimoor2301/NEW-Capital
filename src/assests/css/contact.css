@@ -1,0 +1,247 @@
+.contactContainer{
+    border-radius: 10.37px;
+    background: white;
+}
+.offcanvas.offcanvas-end{
+  width: 100%;
+}
+.contactContainer .contactInfo{
+    background: #033329;
+    border-radius: 5.37px;
+    padding-bottom: 34px;
+    background-image: url(../images//Ellipse1.svg);
+  background-repeat: no-repeat;
+  background-position: right  bottom;
+  background-size: 201px auto;
+}
+.contactContainer .contactInfo h3{
+    font-weight: 600 !important;
+    color: white;
+    word-wrap: break-word;
+    margin-top: 41.84px;
+    margin-left: 41.84px;
+    font-family: "Poppins", sans-serif;
+}
+.contactContainer .contactInfo .secondheading{
+    color: #C9C9C9;
+    font-weight: 400 !important;
+    font-size: 18.66px !important;
+    word-wrap: break-word;
+    margin-top: 15.84px;
+    margin-left: 41.84px;
+    font-family: "Poppins", sans-serif;
+}
+.contactContainer .contactInfo .contactDetails{
+    color: white;
+    margin-top: 103.08px;
+    margin-left:41.84px;
+}
+
+.contactContainer .contactInfo .contactDetails span{
+   margin-right: 15.92px;
+
+}
+.contactContainer .contactInfo .contactDetails p{
+    font-size: 16.58px !important;
+    font-weight: 400 !important;
+    font-family:  'Poppins', sans-serif;
+}
+.contactContainer .contactInfo .contactDetails .detials{
+    margin-top: 51.72px;
+}
+.contactContainer .contactInfo .socialIcon{
+    margin-top:151.98px ;
+    margin-left:41.84px;
+}
+.contactContainer .contactInfo .socialIcon .socialIconLink{
+    color: white;
+    margin-right: 32px;
+    font-size: 20px;
+}
+.contactContainer .MessageBox{
+    margin-top: 62.25px;
+    padding-left: 38px;
+}
+.contactContainer .rightCol{
+    margin-left: -20px;
+}
+
+.contactContainer .label-contact {
+    font-size: 12.44px !important;
+    font-weight: 500 !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20.74px; 
+    color: var(--dark--green);
+  }
+  .contactContainer .label-forms{
+    margin-top: 20px;
+  }
+.contactContainer .label-contact:nth-child(3) {
+    font-size: 12.44px !important;
+    font-weight: 500 !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20.74px; 
+    color: var(--dark--green);
+    margin-top: 20px;
+  }
+  .contactContainer .form-label.email, .contactContainer .form-label.number {
+    margin-top: 46.69px;
+
+  }
+   
+.contactContainer .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 288.23px;
+    margin-top: -3.95px;
+  }
+  .MessageBox > .row > .rightCol > .form-group > .number {
+    border-color: black;
+  }
+  .contactContainer .CheckSubject{
+    margin-top: 25.69px;
+  }
+  .contactContainer .CheckSubject p{
+    font-size: 14.74px !important;
+    font-weight: 600 !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20.74px;
+    color: black;
+  }
+  #check {
+    border-radius: 50%;
+    background-color: #033329;
+   
+  }
+  
+  #check + .custom-control-label {
+    font-size: 12.44px !important;
+    font-weight: 500 !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20.74px;
+    color: #8D8D8D;
+  }
+  .contactContainer .labelMsg{
+    margin-top: 19.69px;
+    resize: none;
+   
+  }
+  textarea{
+    resize: none;
+  }
+  .form-control:focus{
+    border-color: white !important;
+    border: none !important;
+  }
+  .contactContainer .form-control.msgText{
+    width:616.89px;
+    margin-top: 1px;
+  }
+  .contactContainer .customButton{
+    color: white;
+    background: #033329;
+    width: 221.87px;
+    border-radius: 8px;
+    height: 56.02px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.59px !important;
+    font-weight: 500 !important;
+    border: none;
+    /* //margin-top: 46.69px; */
+    text-align: center;
+  }
+  .contactContainer .customButton:focus{
+    color: white;
+    background: #033329;
+    width: 221.87px;
+    border-radius: 8px;
+    height: 56.02px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.59px !important;
+    font-weight: 500 !important;
+    border: none;
+    /* //margin-top: 46.69px; */
+    text-align: center;
+  }
+  .contactContainer .formButton{
+   margin-top: 46.69px ;
+  }
+  @media only screen and (max-width: 1199px) { 
+    .contactContainer .form-control {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      width: 232.23px;
+      margin-top: -3.95px;
+  }
+  .contactContainer .form-control.msgText {
+    width: 504.89px;
+    margin-top: 1px;
+}
+  }
+
+  @media only screen and (max-width: 991px) { 
+    .contactContainer .rightCol {
+      margin-left: 0px;
+  }
+  .contactContainer .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin-top: -3.95px;
+}
+.contactContainer .form-control.msgText {
+  width: 100%;
+  margin-top: 1px;
+}
+  }
+
+  @media only screen and (max-width: 425px) { 
+    .contactContainer .customButton {
+      color: white;
+      background: #033329;
+      width: 162.87px;
+      border-radius: 8px;
+      height: 56.02px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16.59px !important;
+      font-weight: 500 !important;
+      border: none;
+      text-align: center;
+  }
+  .contactContainer .contactInfo h3 {
+    font-weight: 600 !important;
+    color: white;
+    word-wrap: break-word;
+    margin-top: 41.84px;
+    margin-left: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+}
+.contactContainer .contactInfo .secondheading {
+  color: #C9C9C9;
+  font-weight: 400 !important;
+  font-size: 13.66px !important;
+  word-wrap: break-word;
+  margin-top: 15.84px;
+  margin-left: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.contactContainer .contactInfo .contactDetails {
+  color: white;
+  margin-top: 37.08px;
+  margin-left: 0px;
+  text-align: center;
+}
+.contactContainer .contactInfo .socialIcon {
+  margin-top: 66.98px;
+  margin-left: 0px;
+  text-align: center;
+}
+.contactContainer .MessageBox{
+  margin-top: 62.25px;
+  padding-left: 0px;
+}
+  }

@@ -1,0 +1,46 @@
+.ProfileSetting{
+  border-radius: 12px;
+    background: white;
+    padding-top:13px ;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+.ProfileSetting h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color:#000000;
+}
+.ProfileSetting .my-card{
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    border: 0.30px #e3e3eb solid;
+    background: white;
+}
+.ProfileSetting .roundDiv {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    box-shadow: 4.170732021331787px 5.839025020599365px 13.346342086791992px 0.8341463804244995px rgba(133.87, 133.87, 133.87, 0.16);
+    border: 0.30px rgba(169, 176, 185, 0.3) solid;
+    background: white;
+    margin-left: 10px;
+ 
+  }
+  .ProfileSetting .card-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color:#000000;
+  }
+  .ProfileSetting .card-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    color:#000000;
+  }

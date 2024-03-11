@@ -1,0 +1,178 @@
+.triangle-button {
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 9px 10px;
+  color: black;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.team-wrapper .btn:active, .btn.active, .btn.show{
+  background-color: var(--dark--green);
+}
+.triangle-button:focus {
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--dark--green);
+  padding: 9px 10px;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.focus-color {
+  /* Define your focused color styles here */
+  /* For example */
+  outline: 2px solid red;
+}
+.triangle-button.active {
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--dark--green);
+  padding: 9px 10px;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.triangle-button:hover {
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--dark--green);
+  padding: 9px 10px;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.triangle-button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust for triangle position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--dark--green); /* Match button background color */
+}
+.triangle-button:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust for triangle position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--dark--green); /* Match button background color */
+}
+
+.team-wrapper .team-data {
+  border: 1px solid #48628466;
+  border-radius: 16px;
+  padding-top: 37px;
+  padding-left: 29px;
+  padding-bottom: 108px;
+  margin-top: 39px;
+}
+
+.team-wrapper .heading-team {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 43px;
+  color: var(--dark--green);
+  margin-bottom: 16px;
+}
+
+.team-wrapper .text-team {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--dark--green);
+  margin-bottom: 16px;
+}
+
+.team-wrapper .border-team {
+  border-bottom: 2px solid var(--dark--green);
+  width: 28%;
+}
+.team-wrapper .listed-team {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark--green);
+  margin-top: 16px;
+}
+
+.team-wrapper .our-team-head {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  color: var(--dark--green);
+  margin-bottom: 16px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 991px) {
+  .triangle-button::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust for triangle position */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--dark--green); /* Match button background color */
+  }
+  .triangle-button {
+    position: relative;
+    display: inline-block;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--dark--green);
+    padding: 9px 10px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    margin-top: -20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .team-wrapper .heading-team {
+    font-size: 25px;
+  }
+  .team-wrapper .text-team {
+    font-size: 13px;
+  }
+  .team-wrapper .listed-team {
+    font-size: 13px;
+  }
+  .team-wrapper .team-data {
+    margin-top: 39px;
+  }
+}

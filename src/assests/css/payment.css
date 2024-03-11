@@ -1,0 +1,105 @@
+.paymentScreen {
+    background: white;
+    border-radius: 12px;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+.paymentScreen h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color:#000000;
+   
+}
+.paymentScreen h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700 !important;
+    font-size: 30px !important;
+    color:#000000;
+   
+}
+.paymentScreen hr{
+    margin-top: -1px;
+}
+.paymentScreen .secondRow {
+    margin-top: 21px;
+}
+
+.paymentScreen .secondRow .my-card{
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    border: 0.30px #e3e3eb solid;
+    background: white;
+}
+.paymentScreen .secondRow .form-control{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    border: 0.30px #e5e5ee solid;
+    background: white;
+}
+.paymentScreen .secondRow .form-control::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color:rgba(72.30, 98.13, 131.70, 0.40);
+}
+.paymentScreen .form-check-input {
+    margin-top: 10px;
+}
+.paymentScreen .form-check-input:checked {
+    background-color:#033329;
+    border-color: #033329;
+}
+.paymentScreen  .form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image:none;
+}
+.paymentScreen .secondRow .roundDiv {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    box-shadow: 4.170732021331787px 5.839025020599365px 13.346342086791992px 0.8341463804244995px rgba(133.87, 133.87, 133.87, 0.16);
+    border: 0.30px rgba(169, 176, 185, 0.3) solid;
+    background: white;
+    margin-left: 10px;
+ 
+  }
+  .paymentScreen .input-group-text{
+    background: none;
+   
+  }
+  .paymentScreen .secondRow .form-control.card-number{
+    border-right: none;
+    border-top-right-radius: none;
+  }
+  .paymentScreen .input-group-text {
+    margin-top: 20px;
+    border-left: none;
+    border-top-left-radius: none;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 0.30px #e5e5ee solid;
+    background: white;
+
+  }
+  .paymentScreen button,
+  .paymentScreen .btn-primary,
+  .paymentScreen .btn:hover,
+  .paymentScreen .btn-check:checked + .btn,
+  .paymentScreen .btn.active,
+  .paymentScreen .btn.show,
+  .paymentScreen .btn:first-child:active,
+  .paymentScreen :not(.btn-check) + .btn:active {
+color: white;
+background:#033329;
+border-radius: 6px;
+padding:16px, 24px, 16px, 24px;
+font-family: 'Inter', sans-serif;
+font-weight: 600 !important;
+font-size: 14px !important;
+margin-top: 10px;
+border: none;
+  }

@@ -1,0 +1,204 @@
+.banner-vertical .banner-full-warp {
+  border: none;
+  border-radius: 27px;
+  background: linear-gradient(234.57deg, rgba(201, 201, 201, 0.06) -22.36%, rgba(3, 51, 41, 0.6) 148.09%),
+  linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
+    height: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right:105px;
+    margin-top: 62px;
+    position: relative;
+    /* overflow-y: hidden; */
+}
+.animated-content {
+    position: relative;
+    transform: translateY(100%); /* initially move the content down */
+  }
+.banner-vertical .banner-alignment{
+    /* align-items: center;
+    margin-top: 12px; */
+}
+
+.banner-vertical .get-start{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    color: var( --blackish--color);
+    line-height: 80px;
+}
+
+.banner-vertical .description{
+    font-weight: 500;
+    color: var(--greish--color);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+.banner-vertical .store-name{
+    margin-top: -8px;
+    margin-bottom: -3px;
+    font-size: 20px;
+}
+
+.banner-vertical .apple-icon{
+    font-size: 31px;
+    margin-top: 2px;
+}
+
+.banner-vertical .btn{
+    padding-top: 6px !important;
+    background-color: black !important;
+    font-size: 11px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-family: 'Poppins', sans-serif !important;
+    padding-right:1px !important;
+    font-weight: 500;
+}
+
+.banner-vertical .btn-align{
+    margin-right: -10px;
+    margin-left: 3px;
+}
+
+.banner-vertical .btn-wrapp{
+    margin-top: 39px;
+}
+
+@media only screen and (max-width: 1199px) { 
+    .banner-vertical .get-start {
+        font-size: 44px;
+    }
+    .banner-vertical .description {
+        font-size: 18px;
+    }
+
+    .banner-vertical .banner-full-warp {
+        padding-top: 40px;
+    }
+    .banner-vertical .store-name {
+        margin-top: -1px;
+        font-size: 14px;
+    }
+    .banner-vertical .btn {
+        font-size: 9px !important;
+    }
+    .banner-vertical .apple-icon {
+        font-size: 25px;
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (max-width: 991px) { 
+    .banner-vertical .banner-full-warp {
+        padding-top: 20px;
+        padding-bottom: 41px;
+        padding-left: 18px;
+        padding-right: 47px;
+    }
+    .banner-vertical .get-start {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner-vertical .description {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) { 
+   .banner-vertical .order-image{
+    order: -1;
+    display: flex;
+   }
+   .banner-vertical .image-placeholder{
+    height: 50vh;
+   }
+   .banner-vertical .banner-full-warp {
+    padding-top: 50px;
+    padding-bottom: 41px;
+    padding-left: 69px;
+    padding-right: 162px;
+    margin-top: 0px;
+}
+.banner-vertical .get-start {
+    font-size: 39px;
+    line-height: 61px;
+}
+.banner-vertical .banner-alignment{
+    align-items: center;
+}
+}
+
+@media only screen and (max-width: 575px) { 
+    .banner-vertical .banner-full-warp {
+        padding-top: 50px;
+        padding-bottom: 41px;
+        padding-left: 69px;
+        padding-right: 69px;
+    }
+    .banner-vertical .row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .banner-vertical .get-start {
+        font-size: 45px;
+        line-height: 70px;
+        text-align: center;
+    }
+    .banner-vertical .description {
+        font-size: 19px;
+        text-align: center;
+    }
+    .banner-vertical .apple-btn-wrap{
+        text-align: end;
+    }
+    .banner-vertical .play-btn-wrap{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-vertical .apple-btn-wrap{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px) { 
+    .banner-vertical .get-start {
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .banner-vertical .description {
+        font-size: 12px;
+        text-align: center;
+    }
+    .banner-vertical .banner-full-warp {
+        padding-top: 50px;
+        padding-bottom: 41px;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+.banner-vertical .play-icon{
+    width: 22px;
+}
+.banner-vertical .store-name {
+    margin-top: -1px;
+    font-size: 9px;
+}
+.banner-vertical .btn {
+    font-size: 6px !important;
+}
+.banner-vertical .apple-btn-wrap{
+    text-align: center;
+}
+.banner-vertical .play-btn-wrap{
+    text-align: center;
+    margin-top: 20px;
+}
+}

@@ -1,0 +1,49 @@
+.des-section .des-start {
+    border: none;
+    border-radius: 0px;
+    background-color: #98E16933;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  .des-section .heading {
+    color: var(--dark--green);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 20px;
+  }
+  .des-section .desc {
+    color: var(--dark--green);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .des-section .contact {
+      background-color: #033329CC;
+      padding-left: 29px;
+      padding-right: 29px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: none;
+      font-size: 10px;
+      font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 1px;
+    margin-top: 5px;
+    cursor: auto;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 475px) { 
+      .des-section .heading {
+          font-size: 30px;
+      }
+  }
+  @media only screen and (max-width: 320px) { 
+      .des-section .heading {
+          font-size: 20px;
+      }
+  }

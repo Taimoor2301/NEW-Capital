@@ -1,0 +1,152 @@
+.pagination{
+    padding: 20px;
+}
+.pagination .nextbtn {
+    font-family: "Inter", sans-serif;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #ffffff;
+    background: #033329 !important;
+    border-radius: 4px;
+    border: none !important;
+    padding: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.pagination .form-control {
+    display: block;
+    width: 100%;
+    padding: 0px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding-right: 18px;
+    margin-left: -16px;
+
+}
+.pagination .secondcol{
+    margin-top: 10px;
+}
+.pagination .prevbtn{
+  
+    font-size: 16px !important;
+    color: black;
+    background: transparent !important;
+    border-radius: 4px;
+    border:0.70px #A0AEC0 solid;
+   
+  }
+  .pagination p{
+ 
+    font-family: "Lato", sans-serif;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color: #9FA2B4;
+    text-align: start;
+  }
+  .pagination .custom-input{
+   
+    height: 20px;
+    border-radius: 3px;
+    border: 0.20px rgba(33, 39, 42, 0.90) solid;
+  }
+  @media (max-width: 1199px) {
+    .pagination p.secondpara{
+     margin-left: 5px;
+    }
+ 
+    
+   }
+   
+  @media (max-width: 425px) {
+   .pagination p.secondpara{
+    margin-left: 5px;
+   }
+
+   .pagination .nextbtn {
+    font-size: 14px !important;
+    padding: 8px;
+   }
+   .pagination .prevbtn{
+    font-size: 14px !important;
+    padding: 8px;
+   }
+  }
+  @media (max-width: 375px) {
+    .pagination p.secondpara{
+     margin-left: 8px;
+     font-size: 12.3px !important;
+    }
+    .pagination .secondcol{
+        margin-top: 3px;
+    }
+ 
+    .pagination .nextbtn {
+     font-size: 11px !important;
+     padding: 5px;
+    }
+    .pagination .prevbtn{
+        font-size: 11px !important;
+        padding:5px;
+   }
+}
+
+@media (max-width: 991px) {
+    .pagination .nextbtn {
+        font-family: "Inter", sans-serif;
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        color: #ffffff;
+        background: #033329 !important;
+        border-radius: 4px;
+        border: none !important;
+        padding: 10px;
+    }
+}
+@media (max-width: 669px) {
+    .pagination .nextbtn {
+        font-family: "Inter", sans-serif;
+        font-weight: 500 !important;
+        font-size: 8px !important;
+        color: #ffffff;
+        background: #033329 !important;
+        border-radius: 4px;
+        border: none !important;
+        padding: 10px;
+    }
+    .pagination .prevbtn {
+        font-size: 9px !important;
+        color: black;
+        background: transparent !important;
+        border-radius: 4px;
+        border: 0.70px #A0AEC0 solid;
+        padding: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .pagination .nextbtn {
+        font-family: "Inter", sans-serif;
+        font-weight: 500 !important;
+        font-size: 8px !important;
+        color: #ffffff;
+        background: #033329 !important;
+        border-radius: 4px;
+        border: none !important;
+        padding: 6px;
+    }
+    .pagination .prevbtn {
+        font-size: 9px !important;
+        color: black;
+        background: transparent !important;
+        border-radius: 4px;
+        border: 0.70px #A0AEC0 solid;
+        padding: 5px;
+    }
+}

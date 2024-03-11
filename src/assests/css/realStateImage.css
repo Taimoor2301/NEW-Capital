@@ -1,0 +1,122 @@
+.sukuh {
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.sukuhContainer {
+  background: rgba(140, 216, 93, 0.2);
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+
+.sukuhContainer .sukuhimage {
+  margin-left: 6px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.sukuhContainer .SukukData {
+  width: 550px;
+  height: 272px;
+  margin-left: 85px;
+  margin-top: 60px;
+}
+.sukuhContainer .SukukData h1 {
+  font-size: 32px !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.sukuhContainer .SukukData p {
+  margin-left: 0;
+  margin-top: 24px;
+  color: #033329;
+  font-size: 18px !important;
+  font-family: "Work Sans", sans-serif;
+  line-height: 31px;
+  word-wrap: break-word;
+  margin-bottom: 44px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+@media only screen and (max-width: 1199px) {
+  .sukuhContainer {
+    background: rgba(140, 216, 93, 0.2);
+    border-radius: 12px;
+    padding-bottom: 15px;
+  }
+  .sukuhContainer .sukuhimage {
+   
+    margin-left: 0px;
+  }
+  .sukuhContainer .SukukData {
+    margin-top: 31px;
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .sukuhContainer .SukukData {
+    width: 415px;
+}
+.sukuhContainer .sukuhimage {
+  margin-top: 31px;
+}
+.sukuhContainer .SukukData h1 {
+  font-size: 25px !important;
+}
+.sukuhContainer .SukukData p {
+  font-size: 14px !important;
+  margin-bottom: 14px;
+}
+.sukuhContainer .SukukData {
+  height: 226px;
+}
+.sukuh {
+  margin-top: 7px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .sukuh {
+    margin-top: -56px;
+}
+.sukuhContainer .SukukData {
+  width: 100%;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  .sukuh {
+    margin-top: 11px;
+}
+}
+@media only screen and (max-width: 575px) {
+  .sukuh {
+    margin-top: 78px;
+}
+}
+@media only screen and (max-width: 425px) {
+  .sukuh {
+    margin-top: 111px;
+}
+
+}
+@media only screen and (max-width: 375px) {
+  .sukuh {
+    margin-top: 111px;
+}
+.sukuhContainer {
+  background: rgba(140, 216, 93, 0.2);
+  border-radius: 12px;
+  padding-bottom: 60px;
+}
+}
+@media only screen and (max-width: 355px) {
+  .sukuh {
+    margin-top: 111px;
+}
+.sukuhContainer {
+  background: rgba(140, 216, 93, 0.2);
+  border-radius: 12px;
+  padding-bottom: 118px;
+}
+}

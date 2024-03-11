@@ -1,0 +1,81 @@
+.walletcard-wrapp .cardtitle{
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.walletcard-wrapp .cardbtn{
+    border-radius: 5px !important;
+  background-color: var(--dark--green);
+  border: none;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.walletcard-wrapp .card-balance{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.walletcard-wrapp .card-withdraw{
+    border-radius: 5px !important;
+    background-color: transparent;
+    border: 1px solid #9A9AA9;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--dark--green);
+}
+.walletcard-wrapp .spacing-wallet{
+    margin-top: 10px;
+}
+
+.walletcard-wrapp .wallet-heading{
+    font-size: 24px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-top: 21px;
+}
+@media only screen and (max-width: 1250px) {
+    .walletcard-wrapp .cardbtn{ 
+        padding-left: 17px;
+  padding-right: 17px;
+    }
+   
+}
+@media only screen and (max-width: 1220px) {
+    .walletcard-wrapp .cardbtn{ 
+        padding-left: 17px;
+  padding-right: 17px;
+    }
+   
+}
+@media only screen and (max-width: 1200px) {
+    .walletcard-wrapp .cardbtn {
+        font-size: 14px;
+    }
+   
+}
+@media only screen and (max-width: 1199px) {
+    .walletcard-wrapp .cardbtn {
+        font-size: 12px !important;
+        padding-top: 11px !important;
+        padding-bottom: 15px !important;
+        padding-left: 11px  !important;
+        padding-right: 11px !important;
+}
+}

@@ -1,0 +1,59 @@
+.started-section .contact-start {
+  border: none;
+  border-radius: 20px;
+  background-color: var(--green--off);
+  padding-top: 66px;
+  padding-bottom: 30px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.started-section .heading {
+  color: var(--dark--green);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.started-section .desc {
+  color: var(--dark--green);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 29px;
+}
+
+.started-section .contact {
+    background-color: var(--dark--green);
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-top: 11px;
+}
+.started-section .contact:focus {
+    background-color: var(--dark--green);
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-top: 11px;
+}
+@media only screen and (max-width: 475px) { 
+    .started-section .heading {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 320px) { 
+    .started-section .heading {
+        font-size: 20px;
+    }
+}

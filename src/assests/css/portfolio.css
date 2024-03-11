@@ -1,0 +1,148 @@
+.ProtfolioScreen{
+    border-radius: 12px;
+    background: white;
+    padding-top:24px ;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+.ProtfolioScreen h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    color:#000000;
+}
+.css-1azl6jz-MuiTableCell-root{
+    text-align: justify !important;
+    padding: 0px !important;
+}
+.ProtfolioScreen .dealCard,.ProtfolioScreen .my-card  {
+  
+   
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    border: 0.30px #e3e3eb solid;
+    background: white;
+}
+.ProtfolioScreen .cardtitle{
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    color:#000000;
+}
+.ProtfolioScreen .cardtext{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color:#000000;
+}
+
+.ProtfolioScreen .imageCard1{
+    margin-top: -15px;
+    padding-left: 16px;
+    margin-bottom: -5px;
+    
+}
+.ProtfolioScreen .imageCard2{
+    margin-top: -5px;
+    padding-left: 16px;
+    /* margin-bottom: 5px; */
+}
+.ProtfolioScreen .imageCard3{
+
+    padding-left: 16px;
+    /* margin-bottom: -1px; */
+}
+.ProtfolioScreen .row1text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color:#000000;
+}
+.ProtfolioScreen .row2Text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color:#000000;
+}
+.ProtfolioScreen .progress-bar {
+   
+
+   background-color: #033329;
+
+}
+.ProtfolioScreen .progress, .ProtfolioScreen .progress-stacked{
+    --bs-progress-height: 7px;
+margin-top: 10px;
+}
+.ProtfolioScreen .lastpara{
+    margin-top: 4px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    color:#6D6D6D;
+    margin-bottom: 5px;
+    margin-top: 17px;
+}
+.ProtfolioScreen  .my-card h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin-top: 3px;
+    color:#000000; 
+}
+
+.ProtfolioScreen  .my-card p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+  
+    color:#707070; 
+}
+.ProtfolioScreen  .my-card p.icon-text{
+    margin-top: 30px;
+    font-size: 18px !important;
+}
+@media (max-width: 1270px) {
+    .ProtfolioScreen .lastpara {
+        margin-top: 4px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400 !important;
+        font-size: 11px !important;
+        color: #6D6D6D;
+        margin-bottom: -8px;
+        margin-top: 17px;
+    }
+  }
+@media (max-width: 991px) {
+    .ProtfolioScreen  .my-card h1{
+        font-size: 13px !important;
+      
+    }
+  }
+@media (max-width: 767px) {
+    .ProtfolioScreen  .my-card h1{
+        font-size: 13px !important;
+      
+    }
+  }
+  @media (max-width: 575px) {
+    .ProtfolioScreen  .my-card h1{
+        font-size: 11px !important;
+        
+    }
+  }
+/* @media (max-width: 475px) {
+    .ProtfolioScreen  .my-card h1{
+        font-size: 7px !important;
+        margin-top: 8px;
+    }
+} */
+/* @media (max-width: 475px) {
+    .my-card {
+      overflow-x: scroll;
+    }
+  }
+  */
